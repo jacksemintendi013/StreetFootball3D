@@ -1,0 +1,50 @@
+{
+  "name": "StreetFootball3D",
+  "version": "0.0.1",
+  "description": "A realistic open-world football game inspired by FIFA Street for mobile and PC",
+  "main": "index.js",
+  "scripts": {
+    "build": "unity -batchmode -buildWindows64Player",
+    "build:mobile": "unity -batchmode -buildAndroidPlayer",
+    "test": "jest",
+    "lint": "eslint .",
+    "docs": "typedoc"
+  },
+  "keywords": [
+    "unity",
+    "football",
+    "soccer",
+    "game",
+    "mobile",
+    "pc",
+    "open-world",
+    "fifa-street",
+    "sports"
+  ],
+  "author": "Giacomo Semintendi (jacksemintendi013)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jacksemintendi013/StreetFootball3D.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jacksemintendi013/StreetFootball3D/issues"
+  },
+  "homepage": "https://github.com/jacksemintendi013/StreetFootball3D",
+  "dependencies": {
+    "photon-pun2": "^2.49",
+    "mirror": "^82.0.1",
+    "cinemachine": "^2.10",
+    "textmesh-pro": "^3.2"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "typescript": "^5.0.0",
+    "eslint": "^8.0.0"
+  },
+  "unity": {
+    "version": "2023.2",
+    "apiCompatibilityLevel": ".NET 4.x",
+    "scriptingBackend": "IL2CPP"
+  }
+}
